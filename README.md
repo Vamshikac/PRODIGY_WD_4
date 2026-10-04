@@ -1,72 +1,68 @@
-# Vamshika | Personal Portfolio
+# Personal Portfolio Website
 
-A personal portfolio website showcasing my skills, projects, education, and experience as a Computer Science Engineering student.
+A responsive personal portfolio website built with HTML, CSS and JavaScript to showcase my skills, projects and background as an aspiring web developer.
 
-## 🌐 Overview
+Built as **Task 04** of my Web Development internship at Prodigy InfoTech.
 
-This portfolio was developed as part of my Web Development Internship to practice frontend development and create a personal space to showcase my work.
+## About the Project
 
-The website includes:
+This portfolio presents who I am and what I have built. It includes a landing section with an introduction and profile photo, an About Me section covering my background, education and experience, a skills section, a projects showcase and a contact section.
 
-- Home section with personal introduction
-- About Me section
-- Education and professional experience
-- Categorized technical skills
-- Web development projects
-- Contact section
-- Responsive design for different screen sizes
-- Smooth scrolling and scroll-reveal animations
+## Features
 
-## 🛠️ Technologies Used
+- **Responsive design:** works on desktops, tablets and phones
+- **Sticky navigation bar** with smooth scrolling to each section
+- **Scroll-reveal animations** using the Intersection Observer API
+- **About Me section** covering background, education and professional experience
+- **Skills showcase** grouped by category
+- **Projects section** with a card for each project
+- **Auto-updating footer year** using JavaScript
+- Hover effects and transitions for a polished feel
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- VS Code
+## Tech Stack
 
-## 📂 Projects
+| Technology | Used for |
+|---|---|
+| HTML5 | Page structure and semantic sections |
+| CSS3 | Flexbox, Grid, custom properties (variables), media queries, transitions |
+| JavaScript (Vanilla) | Scroll-reveal animation, dynamic footer year |
 
-### 01 — Responsive Landing Page
-A responsive coffee shop landing page created using HTML and CSS, focusing on layout, typography, navigation, and visual presentation.
+## Project Structure
 
-### 02 — Interactive Stopwatch
-A JavaScript-based stopwatch featuring:
-
-- Start
-- Pause
-- Reset
-- Lap functionality
-
-The project uses DOM manipulation and JavaScript time-based events.
-
-### 03 — Tic-Tac-Toe Web Game
-An interactive browser-based Tic-Tac-Toe game featuring:
-
-- Player turns
-- Win detection
-- Draw detection
-- Reset functionality
-- Interactive UI
-
-## ✨ Features
-
-- Responsive layout
-- Modern dark-themed interface
-- Interactive navigation
-- Hover effects
-- Smooth scrolling
-- Scroll-reveal animations
-- Mobile-friendly design
-
-## 📁 Project Structure
-
-```text
+```
 portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── profile.jpeg
-└── README.md
+│── index.html      # Page structure and content
+│── style.css       # All styling and responsive rules
+│── script.js       # Scroll animation and footer year
+│── profile.jpeg    # Profile photo
+│── README.md
+```
+
+## Sections
+
+1. **Home:** introduction, role and a call-to-action button
+2. **About Me:** background, education and experience
+3. **Skills:** HTML, CSS, JavaScript, C++, Python
+4. **Projects:**
+   - **Kaffeine & Co.:** responsive coffee shop landing page
+   - **Stopwatch:** JavaScript stopwatch with start, pause, reset and lap
+   - **Tic-Tac-Toe:** interactive game built with HTML, CSS and JavaScript
+5. **Contact:** ways to get in touch
+
+## What I Learned
+
+- Structuring a multi-section page with semantic HTML
+- Building responsive layouts with Flexbox, Grid and media queries
+- Managing colours and spacing with CSS variables
+- Using the DOM and the Intersection Observer API for scroll animations
+- Deploying a static site with GitHub Pages
+
+## Future Improvements
+
+- Mobile hamburger menu
+- Working contact form
+- Light and dark theme toggle
+- Links to live demos and repositories for every project
+
+
+
